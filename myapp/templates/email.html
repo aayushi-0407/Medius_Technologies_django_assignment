@@ -1,0 +1,36 @@
+<!-- email_with_attachments.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email with Attachments</title>
+</head>
+<body>
+    <h1>Send Email with Attachments</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="recipient_email">Recipient Email:</label>
+        <input type="email" id="recipient_email" name="recipient_email" required><br><br>
+
+        <label for="cc_email">CC:</label>
+        <input type="email" id="cc_email" name="cc_email"><br><br>
+
+        <label for="bcc_email">BCC:</label>
+        <input type="email" id="bcc_email" name="bcc_email"><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <label for="images">Select Images:</label>
+        <input type="file" id="images" name="images" accept="image/*" multiple><br><br>
+        
+        <label for="pdf">Select PDF:</label>
+        <input type="file" id="pdf" name="pdf" accept="application/pdf"><br><br>
+        
+        <input type="submit" value="Send Email">
+    </form>
+</body>
+</html>
