@@ -27,7 +27,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [
-        'https://medius-technologies-django-assignment.onrender.com',
+        'medius-technologies-django-assignment.onrender.com',
         'localhost',
         '127.0.0.1'
     ]
