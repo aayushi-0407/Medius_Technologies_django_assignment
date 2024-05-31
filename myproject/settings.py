@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-dpn4th(n4&ir_uo(4)3w26_zs1fjh^=$3+^8k7*c3%(_jambfu
 DEBUG = True
 
 ALLOWED_HOSTS = [
-        'https://medius-technologies-django-assignment.onrender.com'
+        'medius-technologies-django-assignment.onrender.com'
     ]
 
 
