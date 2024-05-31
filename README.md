@@ -1,0 +1,1 @@
+# Medius_Technologies_django_assignment
