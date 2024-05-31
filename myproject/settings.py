@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-dpn4th(n4&ir_uo(4)3w26_zs1fjh^=$3+^8k7*c3%(_jambfu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+        'https://medius-technologies-django-assignment.onrender.com'
+    ]
 
 
 # Application definition
